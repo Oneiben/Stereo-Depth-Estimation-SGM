@@ -1,0 +1,52 @@
+# ==============================
+# Python cache and environments
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+env/
+venv/
+.venv/
+.env/
+
+# ==============================
+# Jupyter Notebook checkpoints
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# OS-specific files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# VSCode / IDE settings
+# ==============================
+.vscode/
+
+# ==============================
+# HLS & Verilog generated outputs
+# ==============================
+hls/solution*/sim/
+hls/solution*/_xmsgs/
+hls/solution*/_xreports/
+verilog/sim/
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ==============================
+# Keep data and results directories tracked
+# ==============================
+!data/
+!results/
